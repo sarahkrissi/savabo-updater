@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0",
-  "notes": "Automated release for 0.1.0",
-  "pub_date": "2025-10-18T18:17:05.726Z",
+  "version": "0.2.0",
+  "notes": "Automated release for 0.2.0",
+  "pub_date": "2025-10-18T21:38:41.998Z",
   "platforms": {
     "windows-x86_64": {
-      "version": "0.1.0",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWlhSY1lGY1QxcjNnVVozeEpEcUY2cXIrcWpHdlZzQUZicHp2UnhoRDV1TnlvWWM3cmtVVDB2Q0ZzMzZFWXJ0aVpDZnU2NmdGQ0R2OEQra2xkWlMzUEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYwODExNDIzCWZpbGU6c2NobmF0el8wLjEuMF94NjQtc2V0dXAuZXhlCnViMUZOVHFqTkhxZTd0eWFwMWZPMk9MV1FlcW5PNWZaWXJkVENSd2xSMDJkc3pEY3IrSGNDMWZsM09ZZ21iS1dQMUNkbzJ2Mm5Xb1BSelFQZnBOV0FRPT0K",
-      "url": "https://ibraska2.github.io/schnatz-updater/Schnatz_0.1.0_x64-setup.exe"
+      "version": "0.2.0",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWlc0ZDZwcE5XOW9uSlFzZjF0S1lITEV6a1d4QnUxeUlRdkRta2hrVnNWVGhJeVFtQlNYOG5zNzlBYWJFSHk3NGJBZlhVd1NFK1JuU0N1UEZLMlh4QXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYwODIzNTE5CWZpbGU6c2NobmF0el8wLjIuMF94NjQtc2V0dXAuZXhlCkJDUTJIUUUvNWg3YnUvRVRxUm5heEJiY2xKa1MrZkNUS0JYbmFLTnJlZm1GVlpaNnFNMjVuZU14dXdOSXBiRFhVVm9uRHpUWlg3dzVQUUdtek4vaUNBPT0K",
+      "url": "https://ibraska2.github.io/schnatz-updater/Schnatz_0.2.0_x64-setup.exe"
     }
   }
 }
