@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0",
-  "notes": "Automated release for 0.5.0",
-  "pub_date": "2026-04-04T16:27:03.589Z",
+  "version": "0.6.1",
+  "notes": "Automated release for 0.6.1",
+  "pub_date": "2026-04-04T17:56:29.886Z",
   "platforms": {
     "windows-x86_64": {
-      "version": "0.5.0",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWmZlVytLZDBXN3l2TW0ybXF6VUMzWmJxWnQ0QkJELzdlWGxOOERlK0JEQ2Vvb1pHYTBpbitEY0xYQlBxdEpTVDFpQkhYZWxzMSsweGVPQUI2WmpHVFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MzIwMDIwCWZpbGU6U2FWYUJvXzAuNS4wX3g2NC1zZXR1cC5leGUKalJNallETVdSQWYwNjZzaENsellmM21BWHZWd3g1TEdxR2VRN2xxM3JtblNxOVBOSXZ3YkRLZVRtOXpYQW5yanU1Q2srNWFyV2MrWVpBdUxqNFI0RGc9PQo=",
-      "url": "https://raw.githubusercontent.com/sarahkrissi/savabo-updater/main/SaVaBo_0.5.0_x64-setup.exe"
+      "version": "0.6.1",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWmM5Q0RjTmRWZVdHYXNLaHpHVlF1UDVmc0tOOFM1QXBkQzhPYTVOYmtldXhrNjcyZGxNWENnaWpxMlVhTU1EazN0M3Q1UnljUjJZUnFYZGpCUk9LYUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MzI1Mzg2CWZpbGU6U2FWYUJvXzAuNi4xX3g2NC1zZXR1cC5leGUKNGJnakFuS2NIbWNiL3ArdThvazV5YWZudTZTZS93alZJUHFFSktSREIrblNzOGJxMU1VcC9wZFI3RWoxOXdYR1Z0UktpdURCUkxHdEJkL0lHWEd2RHc9PQo=",
+      "url": "https://raw.githubusercontent.com/sarahkrissi/savabo-updater/main/SaVaBo_0.6.1_x64-setup.exe"
     }
   }
 }
