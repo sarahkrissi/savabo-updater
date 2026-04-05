@@ -10,7 +10,8 @@
     },
     "android": {
       "version": "0.7.0",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.7.0/SaVaBo-v0.7.0.apk"
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.7.0/SaVaBo-v0.7.0.apk",
+      "signature": ""
     }
   }
 }
