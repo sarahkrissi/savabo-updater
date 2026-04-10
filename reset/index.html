@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaVaBo — Passwort zurücksetzen</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #0a0a0b;
+      color: #e4e4e7;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #18181b;
+      border: 1px solid #27272a;
+      border-radius: 16px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 380px;
+      margin: 1rem;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.75rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #f06350, #f050a0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.25rem;
+    }
+    .subtitle {
+      text-align: center;
+      color: #a1a1aa;
+      font-size: 0.875rem;
+      margin-bottom: 1.5rem;
+    }
+    form { display: flex; flex-direction: column; gap: 1rem; }
+    label {
+      font-size: 0.875rem;
+      color: #a1a1aa;
+      margin-bottom: 0.25rem;
+      display: block;
+    }
+    input {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      background: #0a0a0b;
+      border: 1px solid #27272a;
+      border-radius: 10px;
+      color: #e4e4e7;
+      font-size: 0.9375rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    input:focus { border-color: #f06350; }
+    button {
+      width: 100%;
+      padding: 0.75rem;
+      background: linear-gradient(135deg, #f06350, #e04890);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 0.9375rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 0.5rem;
+      transition: opacity 0.2s;
+    }
+    button:hover { opacity: 0.9; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .message {
+      text-align: center;
+      padding: 0.75rem;
+      border-radius: 10px;
+      font-size: 0.875rem;
+      margin-top: 1rem;
+    }
+    .message.success { background: #052e16; color: #4ade80; border: 1px solid #166534; }
+    .message.error { background: #450a0a; color: #f87171; border: 1px solid #7f1d1d; }
+    .hidden { display: none; }
+    .loading {
+      text-align: center;
+      color: #a1a1aa;
+      padding: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>SaVaBo</h1>
+    <p class="subtitle">Passwort zurücksetzen</p>
+
+    <div id="loading" class="loading">Wird geladen...</div>
+
+    <div id="no-token" class="hidden">
+      <div class="message error">
+        Kein gültiger Reset-Link. Bitte fordere in der App einen neuen Link an.
+      </div>
+    </div>
+
+    <form id="reset-form" class="hidden">
+      <div>
+        <label for="password">Neues Passwort</label>
+        <input type="password" id="password" required minlength="8" placeholder="Mindestens 8 Zeichen">
+      </div>
+      <div>
+        <label for="confirm">Passwort bestätigen</label>
+        <input type="password" id="confirm" required placeholder="Nochmal eingeben">
+      </div>
+      <button type="submit" id="submit-btn">Passwort ändern</button>
+      <div id="message" class="hidden"></div>
+    </form>
+
+    <div id="success" class="hidden">
+      <div class="message success">
+        Passwort erfolgreich geändert. Du kannst diese Seite schließen und dich in der App mit deinem neuen Passwort anmelden.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const SUPABASE_URL = 'https://hjvyxmeujqwvpldngihg.supabase.co';
+    const SUPABASE_ANON_KEY = 'sb_publishable_O0cFmW6eWH6TU823vjKaKg_r8NNuhLZ';
+
+    const client = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+    const loadingEl = document.getElementById('loading');
+    const noTokenEl = document.getElementById('no-token');
+    const formEl = document.getElementById('reset-form');
+    const successEl = document.getElementById('success');
+    const messageEl = document.getElementById('message');
+    const submitBtn = document.getElementById('submit-btn');
+
+    let recoveryReady = false;
+
+    client.auth.onAuthStateChange((event) => {
+      if (event === 'PASSWORD_RECOVERY') {
+        recoveryReady = true;
+        loadingEl.classList.add('hidden');
+        formEl.classList.remove('hidden');
+      }
+    });
+
+    // Fallback: if no event fires within 3 seconds, show error
+    setTimeout(() => {
+      if (!recoveryReady) {
+        loadingEl.classList.add('hidden');
+        noTokenEl.classList.remove('hidden');
+      }
+    }, 3000);
+
+    formEl.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      messageEl.classList.add('hidden');
+
+      const password = document.getElementById('password').value;
+      const confirm = document.getElementById('confirm').value;
+
+      if (password.length < 8) {
+        showMessage('Passwort muss mindestens 8 Zeichen lang sein.', 'error');
+        return;
+      }
+      if (password !== confirm) {
+        showMessage('Passwörter stimmen nicht überein.', 'error');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Wird geändert...';
+
+      const { error } = await client.auth.updateUser({ password });
+
+      if (error) {
+        showMessage(error.message, 'error');
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Passwort ändern';
+      } else {
+        formEl.classList.add('hidden');
+        successEl.classList.remove('hidden');
+      }
+    });
+
+    function showMessage(text, type) {
+      messageEl.textContent = text;
+      messageEl.className = 'message ' + type;
+      messageEl.classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>
