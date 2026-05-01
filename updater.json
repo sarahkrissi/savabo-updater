@@ -1,7 +1,7 @@
 {
   "version": "0.18.0",
   "notes": "Release v0.18.0",
-  "pub_date": "2026-05-01T16:44:38.265Z",
+  "pub_date": "2026-05-01T19:42:08.434Z",
   "platforms": {
     "windows-x86_64": {
       "version": "0.18.0",
@@ -14,10 +14,10 @@
       "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.18.0/SaVaBo-v0.18.0.apk"
     },
     "android-widget": {
-      "version": "0.1.2",
-      "versionCode": 3,
+      "version": "0.1.3",
+      "versionCode": 4,
       "signature": "",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/widget-v0.1.2/SaVaBo-Widget-v0.1.2.apk"
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/widget-v0.1.3/SaVaBo-Widget-v0.1.3.apk"
     }
   }
 }
