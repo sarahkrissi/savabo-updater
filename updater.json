@@ -1,17 +1,17 @@
 {
-  "version": "0.19.0",
-  "notes": "Release v0.19.0",
-  "pub_date": "2026-05-14T15:04:27.048Z",
+  "version": "0.19.1",
+  "notes": "Release v0.19.1",
+  "pub_date": "2026-05-14T20:33:24.586Z",
   "platforms": {
     "windows-x86_64": {
-      "version": "0.19.0",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWmRFT0k4a01xeHdFT2VNQldzTHpjTWF4SHF3bDF1a1RBbDFOdlNTbzZQeXdsaWFKYTNWNjlkeVRoU1h1WGNJMTlSZThWVlZpTUlKbXVncksyS0ozRVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4NzcwNzExCWZpbGU6U2FWYUJvXzAuMTkuMF94NjQtc2V0dXAuZXhlCmRZYUhJdi9mV01Jd1FpUWhJb0NNa1FVTDhySFY5Z2hFV3p4T1FYNldZU2FSRjRLQnJLOFJ0c0tIeTBxOXIxUnovOWJnSTRHdDk5K1d2WjBJaGZqaUFBPT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.0/SaVaBo_0.19.0_x64-setup.exe"
+      "version": "0.19.1",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWlpuTmMxWkh6eWppN241WFgxNXhyNjVNd0QwcXZtZGdLanZONHFidGZlRnlwYnZ5QTQrUktRZWFvWEVpMk4vVmNqb3VVeTBkV3NHekkyZFN0KzBnYWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4Nzg5MTMwCWZpbGU6U2FWYUJvXzAuMTkuMV94NjQtc2V0dXAuZXhlCkZHSWdoM0NzQlNTR3dad0x5QnRBQmxxdHRLTG5OMFdKRmNoN1RrSEJDb1V2Y3M5TnNwVGdDaWlEcHVTbnNLK0FMc2VLbDZxYW1WbDFVV09KU0x5UUJRPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.1/SaVaBo_0.19.1_x64-setup.exe"
     },
     "android": {
-      "version": "0.19.0",
+      "version": "0.19.1",
       "signature": "",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.0/SaVaBo-v0.19.0.apk"
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.1/SaVaBo-v0.19.1.apk"
     },
     "android-widget": {
       "version": "0.1.3",
