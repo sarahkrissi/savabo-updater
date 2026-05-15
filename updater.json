@@ -1,17 +1,17 @@
 {
-  "version": "0.19.1",
-  "notes": "Release v0.19.1",
-  "pub_date": "2026-05-14T20:33:24.586Z",
+  "version": "0.19.2",
+  "notes": "Politur-Runde durch die ganze App — die Einstellungen sprechen jetzt deine Sprache statt Entwickler-Deutsch, der Spotify-Player taucht endlich auch auf dem Handy auf, und ein paar Fehler in den Update- und Push-Dialogen wurden gefixt.\n\n### Verbessert\n\n**Was-ist-neu-Sheet beim Start**\n- Der einleitende Versions-Satz steht jetzt prominent oben im Sheet — vorher tauchte er gar nicht auf\n\n**Update-Dialog**\n- Beim \"Update verfügbar\"-Dialog stehen jetzt die echten Release-Notes drin — vorher nur der nichtssagende Text „Release v0.19.1\"\n\n**Mahlzeit-Foto-Logging**\n- \"Foto aufnehmen oder wählen\" öffnet jetzt den Android-Chooser (Galerie, Dateien, Kamera) statt direkt in die Kamera zu springen — passt jetzt zum Button-Text\n\n**Einstellungen-Texte**\n- Komplette Sprach-Überarbeitung: „Platform Credential Store\", „Frontend\", „Argon2 + ChaCha20-Poly1305\" sind raus — durch verständliche Texte ersetzt („Sicher auf deinem Gerät gespeichert\")\n- „Supabase Konfiguration\" heißt jetzt „Cloud-Verbindung\" und zeigt nur noch den „Verbindung testen\"-Button (URL/Anon-Key/Service-Key waren ohnehin nicht sinnvoll editierbar)\n- Anleitung-Tab freundlicher formuliert, mit klarem Schritt-für-Schritt für Steam\n\n**Push-Benachrichtigungen — Geräte-Liste**\n- Statt vier mal „android (android)\" wird jetzt der echte Modellname angezeigt (z.B. „Galaxy S24+\")\n- Pro Gerät ein Lösch-Button — alte/ungenutzte Registrierungen lassen sich entfernen\n- Klarere Überschrift „Push aktiv auf diesem Gerät\" bzw. „Push aktiv auf X Geräten\"\n\n**Steam-Speichern**\n- Fehlermeldungen sind jetzt deutsch und sagen *was* falsch ist („Die Steam-ID muss aus genau 17 Ziffern bestehen — aktuell hast du 16 Zeichen\") statt „Unbekannter Fehler\"\n- Leerzeichen beim Kopieren werden automatisch entfernt\n\n### Gefixt\n\n- Spotify-Player war auf Android komplett unsichtbar (hinter der Bottom-Navigation versteckt) — jetzt taucht der Mini-Player wie auf Desktop direkt über der unteren Leiste auf, mit Track-Info und Steuerung\n- \"Verbindung testen\" für die Cloud-Verbindung schlug mit HTTP 401 fehl — funktioniert wieder\n- Push-Registrierung scheiterte mit „409 Conflict\", wenn das Gerät schon mal unter einem anderen Konto registriert war — Token können jetzt geräteübergreifend mehrfach verwendet werden",
+  "pub_date": "2026-05-15T12:04:31.685Z",
   "platforms": {
     "windows-x86_64": {
-      "version": "0.19.1",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWlpuTmMxWkh6eWppN241WFgxNXhyNjVNd0QwcXZtZGdLanZONHFidGZlRnlwYnZ5QTQrUktRZWFvWEVpMk4vVmNqb3VVeTBkV3NHekkyZFN0KzBnYWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4Nzg5MTMwCWZpbGU6U2FWYUJvXzAuMTkuMV94NjQtc2V0dXAuZXhlCkZHSWdoM0NzQlNTR3dad0x5QnRBQmxxdHRLTG5OMFdKRmNoN1RrSEJDb1V2Y3M5TnNwVGdDaWlEcHVTbnNLK0FMc2VLbDZxYW1WbDFVV09KU0x5UUJRPT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.1/SaVaBo_0.19.1_x64-setup.exe"
+      "version": "0.19.2",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWlQwQ281aUZvYzBYNEt0UENUdDBIRFpsN0t4K3k3R1BQMVp4bGRtT1huN2s5Ym5HOGVhODluRUp2SjFYUkEvN3VGZ0g1NFI2Q3BFdXNiNzNidnV1R3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4ODQ2Mzg2CWZpbGU6U2FWYUJvXzAuMTkuMl94NjQtc2V0dXAuZXhlCkU4cXlYc25hb2paRldhUDJuK09SK2tYVE5wd1dDbzFOS1EvY0d2MnFaU3c0K29oUi8wV01YcXpjM3k2SnJlR01rTG1EYkNlY2E0bXhSbTJ5Z3J5SUNnPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.2/SaVaBo_0.19.2_x64-setup.exe"
     },
     "android": {
-      "version": "0.19.1",
+      "version": "0.19.2",
       "signature": "",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.1/SaVaBo-v0.19.1.apk"
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.2/SaVaBo-v0.19.2.apk"
     },
     "android-widget": {
       "version": "0.1.3",
