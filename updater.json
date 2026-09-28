@@ -1,12 +1,12 @@
 {
-  "version": "0.20.1",
-  "notes": "Die Küchenwaage hält Einzug — am Handy wird gewogen, der Desktop zieht mit:\nPortionen zählen jetzt richtig, gewogene Mahlzeiten zeigen ihre echten Werte,\nund Rezepte tragen die Wiege-Konfiguration für die App. Dazu neue Namen\n(Scoop fürs Essen, Frame für die Aufgaben), eine Suche über alles und die\nKörperwerte von der Waage im Bad.\n\n### Neu\n\n- **Suche über alles (Strg+K):** findet Aufgaben, Rezepte, Zutaten, Rechnungen und mehr\n  und öffnet den Treffer dort, wo er lebt.\n- **Statistiken:** eigene Fläche mit Zeitraum 7, 30 oder 90 Tage.\n- **Körper:** Gewicht, Körperfett, Muskel- und Fettmasse von Withings mit\n  Wochenmittel, Verlauf und Trends bis zu einem Jahr; Ziel-Körperfett und BMI\n  aus der eigenen Größe.\n- **Frame (Aufgaben):** Erinnerungen melden sich am Rechner, Anhänge je\n  Aufgabe, Filtersprache mit eigenem Reiter, Schnellerfassung versteht\n  /Sektion, {Deadline}, 30min/2h und bei:Ort, Leiste „Laufende Aufgabe“ mit\n  Restzeit.\n- **Scoop (Essen):** Einkaufsliste in Laufrichtung des Ladens, Vorrat in der\n  Einkaufsliste, Packungsgröße im Zutaten-Formular, Tagesziel Obst & Gemüse.\n- **Wiege-Konfiguration am Rezept:** Jede Zutat hat jetzt Wiege-Modus\n  (Wiegen, Zählen, Augenmaß, Auslassen), Toleranz in Gramm und\n  Schüssel-Gruppe — die Android-App führt damit durchs Wiegen. Zutaten\n  lassen sich im Formular per Pfeil sortieren; das Rezept-Detail zeigt\n  Modus und Schüssel als Badges.\n- **„Gewogen“-Badge im Plan:** Mit der Waage geloggte Mahlzeiten sind im\n  Wochenplan markiert und zählen mit ihren gewogenen Werten.\n- **Portionen beim Einplanen:** Der Rezept-Tab im Hinzufügen-Dialog hat\n  einen Portionen-Wähler.\n- **Erweiterte Nährwerte:** Zutaten können gesättigte Fettsäuren, Zucker,\n  Ballaststoffe, Natrium, Salz und Cholesterin tragen — Open Food Facts\n  füllt sie beim Barcode-Anlegen mit. Dazu Dichte für ml-Zutaten und\n  Name/Slot für die Waagen-Anzeige.\n\n### Verbessert\n\n- **Portionen zählen richtig:** Ein Rezept für 4 Portionen, davon 1 gegessen,\n  zählt ein Viertel der Makros — vorher das ganze Rezept. Tageswerte und\n  Statistiken können sich dadurch sichtbar ändern; Custom-Einträge zählen\n  jetzt überall mit.\n- **Neue Namen:** Meal Planner heißt jetzt Scoop, Aufgaben heißen Frame,\n  Gaming heißt Shelf.\n- **Updates:** Bei einem fehlgeschlagenen Update steht jetzt der echte\n  Fehlertext da statt „Unbekannter Fehler“, und die App startet nach dem\n  Update zuverlässig neu.\n\n### Gefixt\n\n- **„Heute“ war der UTC-Tag:** Fälligkeiten und Abhak-Regeln rechnen jetzt\n  mit dem lokalen Kalendertag.\n- **Überfällige Wiederholungen** rollen beim Abhaken im Takt über heute hinaus\n  statt auf einen Tag in der Vergangenheit.\n- **Rezept speichern warf Wiege-Einstellungen weg:** Der Desktop-Save legte\n  alle Zutaten-Verknüpfungen neu an — am Handy gesetzte Wiege-Konfiguration\n  und Verweise gewogener Sessions gingen dabei verloren. Jetzt bleiben\n  bestehende Zeilen erhalten.",
-  "pub_date": "2026-09-28T07:59:42.273Z",
+  "version": "0.20.2",
+  "notes": "Ein kleines Nachbessern: Fenster und Dialoge sehen wieder so aus, wie sie sollen.\n\nVerbessert\n- Das Fenster für ein neues Update zeigt die Neuigkeiten gegliedert, und die Knöpfe bleiben immer sichtbar.\n- Hervorgehobene Stichworte in den Neuigkeiten erscheinen fett statt mit Sternchen.\n\nGefixt\n- Das Fenster „Was ist neu“ zeigt die Neuigkeiten wieder übersichtlich mit Überschrift und lässt sich über das X oder „Verstanden“ schließen.\n- Dialoge haben wieder einen abgedunkelten Hintergrund und passen ins Fenster, auch auf kleinen Bildschirmen.",
+  "pub_date": "2026-09-28T08:47:41.218Z",
   "platforms": {
     "windows-x86_64": {
-      "version": "0.20.1",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWlU5bXZvWWs0RVA1NFYrSm9KSnBTU3dWVkFma1VENm5YdHVwb2E1bVJXejJWK1JxWTFnbEdEam50MUVIbFZmMis0Z3ZQczVWSjJRN1luanZSc1ErdUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTgyMzgyCWZpbGU6U2FWYUJvXzAuMjAuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMC4xCnBFeDZob0RJeHV1V0dsbG10OUx2Q2JFalZRc1EvREpyeUxXem9MaXgrSzE0WDJvNnBLd25Qd2U0OU5LeGdxRFBDVUlESzg0eDh1NzBoVXRhbUhjUkR3PT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.20.1/SaVaBo_0.20.1_x64-setup.exe"
+      "version": "0.20.2",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWlIwazVIL29aOFhITThnZkJHaGZJRm1Pa2ROTnI0aFJ0eWNiK2ZBUURnSm16VjJzQnA2ODJXMWJUVXZacUFSSTNVRUR2VE0xWU9DanpmMHprNXdIOWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTg1MjYxCWZpbGU6U2FWYUJvXzAuMjAuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMC4yCnhSMVpHb1VwaEtBbHVVeC9kSEt1UFNyR3Z6ZFFyNTdPa0w1a3lmR2puZ2FrdE1CTGdNNTU0a2VndHFhNDJ4eitDZ3V1bjNNMStnckg4MkkyL0VYZENBPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.20.2/SaVaBo_0.20.2_x64-setup.exe"
     },
     "android-native": {
       "version": "0.4.0",
@@ -26,14 +26,14 @@
       "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.4/SaVaBo-v0.19.4.apk"
     },
     "linux-x86_64-rpm": {
-      "version": "0.20.1",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWlpKYnJWa0NBYk9wVmJIOEZzNDcramh6M05sRU5jcDhWOXdRZmMzWEFiZ2RzT0x3OE83aHIxVWtMM3R5MHRUZEZpVGxndzd3V0hrZWZtWVpSU0l5TWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTgyMzExCWZpbGU6U2FWYUJvLTAuMjAuMS0xLng4Nl82NC5ycG0JdmVyc2lvbjowLjIwLjEKYTh3bVlaWFFSSEFBTjdmN2hIMzhFakV0K0gyU2NvQVRjL25xY0J1aUNOUHByS2RuaXZvSzhGRHIyVnNadWpYOUNpR0VMOGN2NjM5WE1lOUZoYlZ4Qnc9PQo=",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.20.1/SaVaBo-0.20.1-1.x86_64.rpm"
+      "version": "0.20.2",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWlVZSU9GMmcrUmc0cUt6c2RGOFRiclhDQVBqaUc0YnJUR2JTS0xDLzRrelFTVlRDVzFCZll5c0ROM2FTeUhBYnpaWWJTaE9TMmRnQUJNUVlhNG5vMndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTg1MTkwCWZpbGU6U2FWYUJvLTAuMjAuMi0xLng4Nl82NC5ycG0JdmVyc2lvbjowLjIwLjIKUU14a3Ftc0wwVkRLQ2tIdlllUHhDRGlLQTNHQm1XSEhXVjZnTmhXOUowOSswZEtDZ1lxd1hjcWZweHJJamVWUEQ0RXY0Ylc0aG1KbThlS1BUUVJ6QWc9PQo=",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.20.2/SaVaBo-0.20.2-1.x86_64.rpm"
     },
     "windows-x86_64-nsis": {
-      "version": "0.20.1",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWlU5bXZvWWs0RVA1NFYrSm9KSnBTU3dWVkFma1VENm5YdHVwb2E1bVJXejJWK1JxWTFnbEdEam50MUVIbFZmMis0Z3ZQczVWSjJRN1luanZSc1ErdUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTgyMzgyCWZpbGU6U2FWYUJvXzAuMjAuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMC4xCnBFeDZob0RJeHV1V0dsbG10OUx2Q2JFalZRc1EvREpyeUxXem9MaXgrSzE0WDJvNnBLd25Qd2U0OU5LeGdxRFBDVUlESzg0eDh1NzBoVXRhbUhjUkR3PT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.20.1/SaVaBo_0.20.1_x64-setup.exe"
+      "version": "0.20.2",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTM3k3cGdiUENqWlIwazVIL29aOFhITThnZkJHaGZJRm1Pa2ROTnI0aFJ0eWNiK2ZBUURnSm16VjJzQnA2ODJXMWJUVXZacUFSSTNVRUR2VE0xWU9DanpmMHprNXdIOWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTg1MjYxCWZpbGU6U2FWYUJvXzAuMjAuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMC4yCnhSMVpHb1VwaEtBbHVVeC9kSEt1UFNyR3Z6ZFFyNTdPa0w1a3lmR2puZ2FrdE1CTGdNNTU0a2VndHFhNDJ4eitDZ3V1bjNNMStnckg4MkkyL0VYZENBPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.20.2/SaVaBo_0.20.2_x64-setup.exe"
     }
   }
 }
