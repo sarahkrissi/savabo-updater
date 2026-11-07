@@ -1,12 +1,12 @@
 {
-  "version": "0.22.1",
-  "notes": "Neu\n- Zumba → Studios: Jede Studio-Karte zeigt jetzt ihre Kurse mit dem Preis je Termin, und du trägst den Preis direkt dort ein (Enter oder Feld verlassen speichert). Ein Kurs, der neu aus dem Kursplan kommt, steht mit „Preis fehlt“ da — bisher gab es keinen Ort, den Preis zu setzen, und die Monatsabrechnung meldete nur „Preis fehlt“.",
-  "pub_date": "2026-11-07T14:26:37.426Z",
+  "version": "0.22.2",
+  "notes": "Verbessert\n- Zumba → Rechnungen: Die Rechnung landet jetzt im Ablageordner unter Jahr und Monat, zum Beispiel „Zumba/2026/10_Oktober/“, statt nur im Jahresordner.\n- Zumba → Rechnungen: Jede Kursstunde zählt als 1 Std zum Kurspreis, auch wenn der Kurs 50 Minuten dauert. Bisher stand „0,83 Std × 48,00 EUR“ auf der Rechnung, weil die Minuten anteilig gerechnet wurden. Ein 2-Stunden-Termin zählt als 2 Std.\n- Zumba → Rechnungen: Der Bruttobetrag unter den Summen ist nicht mehr fett gedruckt.",
+  "pub_date": "2026-11-07T14:52:18.628Z",
   "platforms": {
     "windows-x86_64": {
-      "version": "0.22.1",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUeit2ei9TanZ6NzdHWlBLQVdHZk0yaXhZL3RlTVc5ZzN6SEpRbXJHOEdXaHdSeUlKY2psRGVVZHJ4NUJ5VEc3MGtrVGtMWG1qNkRxSWtMZmMzSm5KaFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYxNTk3CWZpbGU6U2FWYUJvXzAuMjIuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4xCnNNK2pyeTZEbEZ0VklmTWc0MEtLN2ZGdGVnc2tJY2RzOU1IM0x5Vno0ZXlLcHd4aDhsUjdDQTVPaHI4SnljalZiZXZRWENhSktlZTFSRTU0RG5IeEJRPT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.1/SaVaBo_0.22.1_x64-setup.exe"
+      "version": "0.22.2",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUeitZUWxYTXpvTy9Vek14ZGJUTnZaT2tPTGxlRTQwTURmd0htVVJidkovNnNLek5NZTNhS2xjNzZ3UDRyZzlHS2hCZmV1TDZLRXp3NlY0c2RDYVVqMGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYzMTM4CWZpbGU6U2FWYUJvXzAuMjIuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4yCnVaeTVMVWZyMEROQTUwMk5jaE81cVNmZEphNll1Z0Z3NVJmQ1U0Z0FSekZmYkw2MmJQTnBPTnViSkd6cEhyZWVwR3R5cmhxc1pOcU9iVGdzS3A0TUFBPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.2/SaVaBo_0.22.2_x64-setup.exe"
     },
     "android-native": {
       "version": "0.9.1",
@@ -27,9 +27,9 @@
       "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.4/SaVaBo-v0.19.4.apk"
     },
     "windows-x86_64-nsis": {
-      "version": "0.22.1",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUeit2ei9TanZ6NzdHWlBLQVdHZk0yaXhZL3RlTVc5ZzN6SEpRbXJHOEdXaHdSeUlKY2psRGVVZHJ4NUJ5VEc3MGtrVGtMWG1qNkRxSWtMZmMzSm5KaFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYxNTk3CWZpbGU6U2FWYUJvXzAuMjIuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4xCnNNK2pyeTZEbEZ0VklmTWc0MEtLN2ZGdGVnc2tJY2RzOU1IM0x5Vno0ZXlLcHd4aDhsUjdDQTVPaHI4SnljalZiZXZRWENhSktlZTFSRTU0RG5IeEJRPT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.1/SaVaBo_0.22.1_x64-setup.exe"
+      "version": "0.22.2",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUeitZUWxYTXpvTy9Vek14ZGJUTnZaT2tPTGxlRTQwTURmd0htVVJidkovNnNLek5NZTNhS2xjNzZ3UDRyZzlHS2hCZmV1TDZLRXp3NlY0c2RDYVVqMGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYzMTM4CWZpbGU6U2FWYUJvXzAuMjIuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4yCnVaeTVMVWZyMEROQTUwMk5jaE81cVNmZEphNll1Z0Z3NVJmQ1U0Z0FSekZmYkw2MmJQTnBPTnViSkd6cEhyZWVwR3R5cmhxc1pOcU9iVGdzS3A0TUFBPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.2/SaVaBo_0.22.2_x64-setup.exe"
     }
   }
 }
