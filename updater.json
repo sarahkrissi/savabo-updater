@@ -1,12 +1,12 @@
 {
-  "version": "0.22.0",
-  "notes": "Neu\n- Zuhause: Meldet ein tado-Thermostat eine schwache Batterie, steht das auf der Raum-Kachel („Batterie schwach: Heizkörper-Thermostat (VA1234) — bald wechseln“).\n- Zuhause: Ist ein Thermostat seit 15 Minuten nicht erreichbar oder heizt eine Zone seit 15 Minuten mit voller Kraft, obwohl der Raum schon deutlich über dem Soll liegt, zeigt die Raum-Kachel das rot an („Thermostat seit 03:10 Uhr nicht erreichbar — die Heizung regelt nicht mehr“). Die Mitteilung dazu kommt aufs Handy.",
-  "pub_date": "2026-11-07T13:41:28.097Z",
+  "version": "0.22.1",
+  "notes": "Neu\n- Zumba → Studios: Jede Studio-Karte zeigt jetzt ihre Kurse mit dem Preis je Termin, und du trägst den Preis direkt dort ein (Enter oder Feld verlassen speichert). Ein Kurs, der neu aus dem Kursplan kommt, steht mit „Preis fehlt“ da — bisher gab es keinen Ort, den Preis zu setzen, und die Monatsabrechnung meldete nur „Preis fehlt“.",
+  "pub_date": "2026-11-07T14:26:37.426Z",
   "platforms": {
     "windows-x86_64": {
-      "version": "0.22.0",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUejBkU0RXZmRhLytOOVdnYVZNZWhMZlN2ZkxlakFsdHZZUGNBb1ptRkFNc2t4NVVTd0ptcFh6Z1pMUG10emRKZzlNMnBFejArcnF2UXFkQWlCcVQrWUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDUzODI0CWZpbGU6U2FWYUJvXzAuMjIuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4wCjV2Q1h0MXBTcWlHbDhrMU1lL3pwM2crcFlMb0R4L2F1aTFiYzlTV08zQlk3YkNjRlZVbjNPSGZ4RmhwcUQ2L3NnY2F2STFTSHlwdWM0UTgvVk1VZ0RBPT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.0/SaVaBo_0.22.0_x64-setup.exe"
+      "version": "0.22.1",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUeit2ei9TanZ6NzdHWlBLQVdHZk0yaXhZL3RlTVc5ZzN6SEpRbXJHOEdXaHdSeUlKY2psRGVVZHJ4NUJ5VEc3MGtrVGtMWG1qNkRxSWtMZmMzSm5KaFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYxNTk3CWZpbGU6U2FWYUJvXzAuMjIuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4xCnNNK2pyeTZEbEZ0VklmTWc0MEtLN2ZGdGVnc2tJY2RzOU1IM0x5Vno0ZXlLcHd4aDhsUjdDQTVPaHI4SnljalZiZXZRWENhSktlZTFSRTU0RG5IeEJRPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.1/SaVaBo_0.22.1_x64-setup.exe"
     },
     "android-native": {
       "version": "0.9.1",
@@ -27,9 +27,9 @@
       "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.4/SaVaBo-v0.19.4.apk"
     },
     "windows-x86_64-nsis": {
-      "version": "0.22.0",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUejBkU0RXZmRhLytOOVdnYVZNZWhMZlN2ZkxlakFsdHZZUGNBb1ptRkFNc2t4NVVTd0ptcFh6Z1pMUG10emRKZzlNMnBFejArcnF2UXFkQWlCcVQrWUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDUzODI0CWZpbGU6U2FWYUJvXzAuMjIuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4wCjV2Q1h0MXBTcWlHbDhrMU1lL3pwM2crcFlMb0R4L2F1aTFiYzlTV08zQlk3YkNjRlZVbjNPSGZ4RmhwcUQ2L3NnY2F2STFTSHlwdWM0UTgvVk1VZ0RBPT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.0/SaVaBo_0.22.0_x64-setup.exe"
+      "version": "0.22.1",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUeit2ei9TanZ6NzdHWlBLQVdHZk0yaXhZL3RlTVc5ZzN6SEpRbXJHOEdXaHdSeUlKY2psRGVVZHJ4NUJ5VEc3MGtrVGtMWG1qNkRxSWtMZmMzSm5KaFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYxNTk3CWZpbGU6U2FWYUJvXzAuMjIuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4xCnNNK2pyeTZEbEZ0VklmTWc0MEtLN2ZGdGVnc2tJY2RzOU1IM0x5Vno0ZXlLcHd4aDhsUjdDQTVPaHI4SnljalZiZXZRWENhSktlZTFSRTU0RG5IeEJRPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.1/SaVaBo_0.22.1_x64-setup.exe"
     }
   }
 }
