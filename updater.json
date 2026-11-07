@@ -1,7 +1,7 @@
 {
   "version": "0.22.0",
   "notes": "Neu\n- Zuhause: Meldet ein tado-Thermostat eine schwache Batterie, steht das auf der Raum-Kachel („Batterie schwach: Heizkörper-Thermostat (VA1234) — bald wechseln“).\n- Zuhause: Ist ein Thermostat seit 15 Minuten nicht erreichbar oder heizt eine Zone seit 15 Minuten mit voller Kraft, obwohl der Raum schon deutlich über dem Soll liegt, zeigt die Raum-Kachel das rot an („Thermostat seit 03:10 Uhr nicht erreichbar — die Heizung regelt nicht mehr“). Die Mitteilung dazu kommt aufs Handy.",
-  "pub_date": "2026-11-07T12:17:05.069Z",
+  "pub_date": "2026-11-07T13:41:28.097Z",
   "platforms": {
     "windows-x86_64": {
       "version": "0.22.0",
@@ -9,11 +9,11 @@
       "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.0/SaVaBo_0.22.0_x64-setup.exe"
     },
     "android-native": {
-      "version": "0.9.0",
-      "versionCode": 20012,
+      "version": "0.9.1",
+      "versionCode": 20013,
       "signature": "",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/android-v0.9.0/SaVaBo-Android-v0.9.0.apk",
-      "notes": "Die Heizung sagt jetzt Bescheid, bevor ein Thermostat mit leerer Batterie nachts die Wohnung aufheizt.\n\nNeu\n- Zuhause: Meldet ein tado-Thermostat eine schwache Batterie, steht das auf der Raum-Kachel („Batterie schwach: Heizkörper-Thermostat (VA1234) — bald wechseln“), und du bekommst einmal am Tag eine Mitteilung dazu, bis die Batterie gewechselt ist.\n- Zuhause: Ist ein Thermostat seit 15 Minuten nicht erreichbar oder heizt eine Zone seit 15 Minuten mit voller Kraft, obwohl der Raum schon deutlich über dem Soll liegt, zeigt die Raum-Kachel das rot an („Thermostat seit 03:10 Uhr nicht erreichbar — die Heizung regelt nicht mehr“) und eine Mitteilung weckt dich — einmal je Raum und Tag. Die Mitteilungen haben einen eigenen Kanal „Zuhause: Heizung“; ein Tipp darauf öffnet Zuhause."
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/android-v0.9.1/SaVaBo-Android-v0.9.1.apk",
+      "notes": "Gefixt\n- Waagen-Selbsttest: Das Ergebnis nennt jetzt das Gewicht, das die Waage gemeldet hat („die Waage meldet 231,4 g“), eine leere Waage heißt „0,0 g (leer)“. Bisher stand nur „Gewicht kommt an“."
     },
     "android-widget": {
       "version": "0.1.3",
