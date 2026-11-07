@@ -1,12 +1,12 @@
 {
-  "version": "0.21.1",
-  "notes": "Verbessert\n- Zumba → Rechnungen: Die erzeugte Rechnung sieht jetzt aus wie die bisherige Vorlage aus sevdesk — Name oben rechts in Orange, dieselbe Schrift (Jost, die App bringt sie mit), Absenderzeile über der Anschrift, Rechnungsnummer, Rechnungsdatum und Lieferdatum rechts, je Position Wochentag und Datum in der zweiten Zeile, Menge in Stunden, Einzel- und Gesamtpreis in „EUR“, Summen netto und brutto, Zahlungshinweis mit Konto direkt unter den Summen (wandert auf die nächste Seite, wenn der Platz fehlt) und eine orange Fußzeile mit Seitenzahl. Ein Zusatz wie „/ Vertretung“ in der Bezeichnung steht in Klammern hinter dem Datum. Es gibt nur noch dieses eine Layout; die Auswahl „neutral/gebrandet“ entfällt.\n- Zumba → Monatsabrechnung: Termine heißen auf der Rechnung jetzt wie der Kurs im Kursplan („Cycling“, „Zumba“), solange der Kurs keine eigene Rechnungsbezeichnung hat. Bisher stand ohne eigene Bezeichnung überall „Zumba-Stunde“, auch bei Cycling.\n- Zumba → Rechnungen: Der Knopf oben rechts heißt jetzt „Zur Übersicht“ statt „Zum Billing“ — er führte schon immer zur Übersicht.\n- Scoop: Die Foto-Schätzung braucht keinen eigenen OpenAI-Schlüssel mehr: Ohne Schlüssel rechnet der Server, du wählst nur noch die Stufe. Ein eigener Schlüssel in den Einstellungen bleibt möglich und hat Vorrang. Ist der Server noch nicht so weit, sagt die App das in einem Satz statt mit einer Fehlermeldung — und auch andere Gründe stehen jetzt lesbar im Foto-Blatt statt als „Unbekannter Fehler“.\n\nGefixt\n- Haushalt: Ein Mitglied ohne Namen steht jetzt als „—“ mit seiner E-Mail darunter da, statt die E-Mail zweimal zu zeigen, und ein Haushalt ohne Namen heißt „Haushalt“ wie auf dem iPhone.\n- Frame: Eine Aufgabe in einem geteilten Projekt, deren beauftragte Person nicht mehr im Haushalt ist, zeigt jetzt wie auf dem iPhone einen Kreis mit „J“ für „Jemand“ statt gar keinen.\n- Frame: Benennt jemand auf dem Handy einen Abschnitt um, legt einen an oder schreibt einen Kommentar, siehst du das in der offenen Projektansicht bzw. bei der offenen Aufgabe sofort — ohne neu zu laden.\n- Lüften zeigt die neue Empfehlung jetzt von selbst, sobald sie alle 15 Minuten neu berechnet wird, und Fenster, Türen und Einstellungen, die jemand anderes im Haushalt einträgt, erscheinen ohne Neuladen.\n- Scoop schreibt Kalorien jetzt auch im Verlauf beim Zeigen auf einen Tag, in der Nährwert-Summe beim Eintragen und beim Bearbeiten eines Rezepts sowie in den Zutatenlisten mit Tausenderpunkt („1.834 kcal“), wie überall sonst.\n\nEntfernt\n- Die leeren Einträge „Bücher“ und „Filme“ in der Seitenleiste und in der Befehlspalette sind weg — dahinter stand nie etwas.",
-  "pub_date": "2026-11-07T12:14:12.500Z",
+  "version": "0.22.0",
+  "notes": "Neu\n- Zuhause: Meldet ein tado-Thermostat eine schwache Batterie, steht das auf der Raum-Kachel („Batterie schwach: Heizkörper-Thermostat (VA1234) — bald wechseln“).\n- Zuhause: Ist ein Thermostat seit 15 Minuten nicht erreichbar oder heizt eine Zone seit 15 Minuten mit voller Kraft, obwohl der Raum schon deutlich über dem Soll liegt, zeigt die Raum-Kachel das rot an („Thermostat seit 03:10 Uhr nicht erreichbar — die Heizung regelt nicht mehr“). Die Mitteilung dazu kommt aufs Handy.",
+  "pub_date": "2026-11-07T12:17:05.069Z",
   "platforms": {
     "windows-x86_64": {
-      "version": "0.21.1",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUejVtQjRtZjVCT3RzV3pNR1BvOTVaQm83L0g3eEZtblgwUWZHVXdPaGphVmZ2T3J3MzJwcnZ1T2I0QTU3aEs2SmxwS2JTYzVvRmlVQS9PQnFMcE5TOUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTg1MTg1CWZpbGU6U2FWYUJvXzAuMjEuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMS4xCkxra2RVV2NXNHRQdzhPaThNL2NQcm5jWGxDQnA1Wmh1UWUvdGRjM0hUbkdSZ1Jkd3Q3VEJtVkQzaDlZUlJvWHRoWVhSMlcrcHMrVkZoMGZsQTdyTkJnPT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.21.1/SaVaBo_0.21.1_x64-setup.exe"
+      "version": "0.22.0",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUejBkU0RXZmRhLytOOVdnYVZNZWhMZlN2ZkxlakFsdHZZUGNBb1ptRkFNc2t4NVVTd0ptcFh6Z1pMUG10emRKZzlNMnBFejArcnF2UXFkQWlCcVQrWUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDUzODI0CWZpbGU6U2FWYUJvXzAuMjIuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4wCjV2Q1h0MXBTcWlHbDhrMU1lL3pwM2crcFlMb0R4L2F1aTFiYzlTV08zQlk3YkNjRlZVbjNPSGZ4RmhwcUQ2L3NnY2F2STFTSHlwdWM0UTgvVk1VZ0RBPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.0/SaVaBo_0.22.0_x64-setup.exe"
     },
     "android-native": {
       "version": "0.9.0",
@@ -27,9 +27,9 @@
       "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.4/SaVaBo-v0.19.4.apk"
     },
     "windows-x86_64-nsis": {
-      "version": "0.21.1",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUejVtQjRtZjVCT3RzV3pNR1BvOTVaQm83L0g3eEZtblgwUWZHVXdPaGphVmZ2T3J3MzJwcnZ1T2I0QTU3aEs2SmxwS2JTYzVvRmlVQS9PQnFMcE5TOUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTg1MTg1CWZpbGU6U2FWYUJvXzAuMjEuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMS4xCkxra2RVV2NXNHRQdzhPaThNL2NQcm5jWGxDQnA1Wmh1UWUvdGRjM0hUbkdSZ1Jkd3Q3VEJtVkQzaDlZUlJvWHRoWVhSMlcrcHMrVkZoMGZsQTdyTkJnPT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.21.1/SaVaBo_0.21.1_x64-setup.exe"
+      "version": "0.22.0",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUejBkU0RXZmRhLytOOVdnYVZNZWhMZlN2ZkxlakFsdHZZUGNBb1ptRkFNc2t4NVVTd0ptcFh6Z1pMUG10emRKZzlNMnBFejArcnF2UXFkQWlCcVQrWUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDUzODI0CWZpbGU6U2FWYUJvXzAuMjIuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4wCjV2Q1h0MXBTcWlHbDhrMU1lL3pwM2crcFlMb0R4L2F1aTFiYzlTV08zQlk3YkNjRlZVbjNPSGZ4RmhwcUQ2L3NnY2F2STFTSHlwdWM0UTgvVk1VZ0RBPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.0/SaVaBo_0.22.0_x64-setup.exe"
     }
   }
 }
