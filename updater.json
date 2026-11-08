@@ -1,12 +1,12 @@
 {
-  "version": "0.22.2",
-  "notes": "Verbessert\n- Zumba → Rechnungen: Die Rechnung landet jetzt im Ablageordner unter Jahr und Monat, zum Beispiel „Zumba/2026/10_Oktober/“, statt nur im Jahresordner.\n- Zumba → Rechnungen: Jede Kursstunde zählt als 1 Std zum Kurspreis, auch wenn der Kurs 50 Minuten dauert. Bisher stand „0,83 Std × 48,00 EUR“ auf der Rechnung, weil die Minuten anteilig gerechnet wurden. Ein 2-Stunden-Termin zählt als 2 Std.\n- Zumba → Rechnungen: Der Bruttobetrag unter den Summen ist nicht mehr fett gedruckt.",
-  "pub_date": "2026-11-07T16:32:06.302Z",
+  "version": "0.23.0",
+  "notes": "Neu\n- Zumba → Studios: Ein Studio kann ein Kürzel bekommen, zum Beispiel „KS001“ bei McFIT. Das Feld ist freiwillig; ohne Kürzel fällt die Klammer im Dateinamen einfach weg.\n- Zumba → Einstellungen: Unter „Dateiname der Rechnung“ und „Zahlungshinweis“ stehen jetzt alle Bausteine wie „{{monatsname}}“ oder „{{betrag}}“ mit Erklärung — antippen fügt sie ein. Darunter siehst du sofort, wie die Datei heißen wird, etwa „Rechnung Oktober 2026 (KS001).pdf“.\n- Zumba → Einstellungen: Neuer Schalter „Word-Datei mit ablegen“. Standardmäßig liegt in der Ablage jetzt nur noch die PDF; die Word-Datei war nur der Zwischenschritt dafür.\n\nGefixt\n- Zumba → Rechnungen: Beim Erzeugen der PDF blitzt unter Windows kein schwarzes Fenster mehr auf.",
+  "pub_date": "2026-11-08T15:38:32.368Z",
   "platforms": {
     "windows-x86_64": {
-      "version": "0.22.2",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUeitZUWxYTXpvTy9Vek14ZGJUTnZaT2tPTGxlRTQwTURmd0htVVJidkovNnNLek5NZTNhS2xjNzZ3UDRyZzlHS2hCZmV1TDZLRXp3NlY0c2RDYVVqMGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYzMTM4CWZpbGU6U2FWYUJvXzAuMjIuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4yCnVaeTVMVWZyMEROQTUwMk5jaE81cVNmZEphNll1Z0Z3NVJmQ1U0Z0FSekZmYkw2MmJQTnBPTnViSkd6cEhyZWVwR3R5cmhxc1pOcU9iVGdzS3A0TUFBPT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.2/SaVaBo_0.22.2_x64-setup.exe"
+      "version": "0.23.0",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUejkvSlVOZVI2TmlsSjNyOWt5NUQrbUVDNGFMWUMyYUg3b2Rac25landlbjQ1TERTczJCZVdzTlN6THpVN1NTVXdsUndiV3cyZWpRWWx0L3RlNk5kb3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTUyMzEyCWZpbGU6U2FWYUJvXzAuMjMuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMy4wClpOSnJxRTVqSTVweHRPUVdzeHZYOVB1YmVicE4rbWRmbEoyZ3Nha2dWVWYyNWpPUXBQcGM1WjQ0RktmSjUvVXhEUUVGMmhJeTRmNTBMdlFTMnZnSUJBPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.23.0/SaVaBo_0.23.0_x64-setup.exe"
     },
     "android-native": {
       "version": "0.9.2",
@@ -27,9 +27,9 @@
       "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.19.4/SaVaBo-v0.19.4.apk"
     },
     "windows-x86_64-nsis": {
-      "version": "0.22.2",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUeitZUWxYTXpvTy9Vek14ZGJUTnZaT2tPTGxlRTQwTURmd0htVVJidkovNnNLek5NZTNhS2xjNzZ3UDRyZzlHS2hCZmV1TDZLRXp3NlY0c2RDYVVqMGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYzMTM4CWZpbGU6U2FWYUJvXzAuMjIuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMi4yCnVaeTVMVWZyMEROQTUwMk5jaE81cVNmZEphNll1Z0Z3NVJmQ1U0Z0FSekZmYkw2MmJQTnBPTnViSkd6cEhyZWVwR3R5cmhxc1pOcU9iVGdzS3A0TUFBPT0K",
-      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.22.2/SaVaBo_0.22.2_x64-setup.exe"
+      "version": "0.23.0",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZNQWYzaUFUejkvSlVOZVI2TmlsSjNyOWt5NUQrbUVDNGFMWUMyYUg3b2Rac25landlbjQ1TERTczJCZVdzTlN6THpVN1NTVXdsUndiV3cyZWpRWWx0L3RlNk5kb3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTUyMzEyCWZpbGU6U2FWYUJvXzAuMjMuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yMy4wClpOSnJxRTVqSTVweHRPUVdzeHZYOVB1YmVicE4rbWRmbEoyZ3Nha2dWVWYyNWpPUXBQcGM1WjQ0RktmSjUvVXhEUUVGMmhJeTRmNTBMdlFTMnZnSUJBPT0K",
+      "url": "https://github.com/sarahkrissi/savabo-updater/releases/download/v0.23.0/SaVaBo_0.23.0_x64-setup.exe"
     }
   }
 }
